@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .group {
+            display: flex;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+
+        }
+
+        .left {
+            float: left;
+            width: 50%;
+            height: 100vh;
+            background-color: #ccc;
+
+        }
+
+        .left img {
+            width: 50%;
+
+            margin: 10px auto;
+            display: block;
+        }
+
+        .images {
+            height: 50%;
+            overflow: hidden;
+            overflow-x: scroll;
+            display: flex;
+        }
+
+        .about-us {
+            padding: 50px;
+            height: 35%;
+            text-align: center;
+            background-color: rgb(4, 169, 219);
+
+        }
+
+        .right {
+            width: 50%;
+            height: 100vh;
+            background-color: lavender;
+
+        }
+
+        .notification-bar {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            height: 28.5%;
+        }
+
+        .pyq-link {
+            padding: 20px;
+            text-align: center;
+            height: 28.5%;
+        }
+
+        .alumni {
+            padding: 20px;
+            text-align: center;
+            height: 28.5%;
+            background-color: bisque;
+        }
+        .alumniL{
+            text-align: left;
+        }
+        .insta{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="header">
+
+        <h1>University Website</h1>
+    </div>
+    <div class="group">
+
+
+        <div class="left">
+            <div class="images">
+                <img src="/img/image1.jpg" alt="Image 1">
+                <img src="/img/second.jpg" alt="Image 2">
+                <img src="/img/third.jpg" alt="Image 3">
+                <img src="/img/third.jpg" alt="Image 3">
+                <img src="/img/third.jpg" alt="Image 3">
+
+            </div>
+
+            <div class="about-us">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="notification-bar">
+                <p>Important Notification</p>
+            </div>
+
+            <div class="pyq-link">
+                <h2>Previous Year Question Papers</h2>
+                <a href="https://www.dcrustedp.in/dcrustpqp.php" target="_blank">Download PYQ</a>
+            </div>
+
+            <div class="alumni">
+                <h2>Contact Us</h2>
+                <p style="text-align: left; font-size: 18px">These are our social media accounts.</p>
+                <div class="alumniL">
+                    <div class="insta">
+                        <img src="img/Insta.png" alt="Insta handle" height="25px">
+                        <a href="https://www.instagram.com/" target="_blank" style="padding-left: 15px">Follow us on Instagram.</a>
+                    </div>
+                    <div class="insta">
+                        <img src="img/gmail.png" alt="Insta handle" height="25px">
+                        <a href=https://mail.google.com/mail/u/0/#inbox" target="_blank" style="padding-left: 15px">Click here for our gmail handle.</a>
+                    </div>
+                    <div class="insta">
+                        <img src="img/youtube.png" alt="Insta handle" height="25px">
+                        <a href="https://www.youtube.com/watch?v=jMjn8FaG9TE&ab_channel=CollegeMitra" target="_blank" style="padding-left: 15px">Click here for our youtube handle.</a>
+                    </div>
+
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
